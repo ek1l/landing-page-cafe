@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cabecalho {
+  padding: 30px 15px;
+  position: relative;
+}
+
+.cabecalho .logo {
+  background-image: url(./img/sadasdsad.jpg);
+  background-repeat: no-repeat;
+  width: 85px;
+  height: 85px;
+  display: inline-block;
+}
+
+.cabecalho .logo h1 {
+  font-size: 0;
+}
+
+.cabecalho nav {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin: 30px auto;
+  margin-top: 30px;
+}
+
+.cabecalho ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.cabecalho ul li a:hover {
+  font-weight: bold;
+}
+
+.painel {
+  background: url(./img/painel.jpg) center center no-repeat;
+  height: 600px;
+}
+
+.painel h2 {
+  color: white;
+  font-size: 60px;
+  font-weight: 400px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.secao-com-texto {
+  padding: 153px;
+  text-align: center;
+}
+
+.secao-com-texto img {
+  width: 170px;
+  height: 170px;
+  margin-bottom: 70px;
+}
+
+.secao-com-texto h2 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 37px;
+}
+
+.secao-com-texto p {
+  font-size: 18px;
+  width: 702px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.secao-com-texto.onde-estamos p {
+  font-size: 28px;
+  width: 480px;
+}
+
+.ladrilho div {
+  float: left;
+}
+
+.ladrilho .grande {
+  background: url(./img/4.jpg) center center no-repeat;
+  height: 600px;
+  width: 50%;
+}
+
+.ladrilho .pequeno.grao {
+  background: url(./img/2.jpg) center center no-repeat;
+  height: 300px;
+  width: 25%;
+}
+
+.ladrilho .pequeno {
+  background: url(./img/3.jpg) center center no-repeat;
+  height: 300px;
+  width: 25%;
+}
+
+.ladrilho .medio {
+  background: url(./img/1.jpg) center center no-repeat;
+  height: 300px;
+  width: 50%;
+}
+
+.ladrilho {
+  height: 600px;
+}
+
+.contato {
+  background: url(./img/fundo-contato.jpg) center center no-repeat;
+  color: white;
+  height: 600px;
+  position: relative;
+}
+
+.contato h2 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contato address {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.contato .texto {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+.rodape {
+  background: url(./img/fundo-rodape.jpg) center center no-repeat;
+  padding: 30px 30px;
+  background-size: cover;
+}
+
+rodape ul {
+  float: right;
+  margin-top: 30px;
+}
+
+.rodape ul li {
+  padding: 15px;
+  display: inline-block;
+}
+
+.rodape ul li a {
+  color: white;
+}
+
+.rodape ul li a:hover {
+  font-weight: bold;
+}
+
+.rodape .copyright {
+  color: white;
+}
+
+.rodape .redes-sociais .face,
+.rodape .redes-sociais .insta {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+rodape .redes-sociais {
+  float: right;
+  clear: both;
+}
+.rodape .conteudo-de-baixo {
+  margin-top: 40px;
+}
